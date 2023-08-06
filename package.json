@@ -1,0 +1,57 @@
+{
+  "name": "vkconfig",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "konva": "^7.1.4",
+    "uuid": "^8.3.1",
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.22.1",
+    "vue-konva": "^2.1.6"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^1.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "compression-webpack-plugin": "^6.0.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "px2rem-loader": "^0.1.9",
+    "sass-loader": "^10.0.4",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-cli-plugin-i18n": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "android >= 4.4"
+  ]
+}
